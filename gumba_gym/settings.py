@@ -38,6 +38,13 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'Gym_Site.apps.GymSiteConfig',
+    'gallery.apps.GalleryConfig',
+    'members',
+    'trainers',
+    'classes',
+    'payments',
+    'equipment'
+
 ]
 
 MIDDLEWARE = [
