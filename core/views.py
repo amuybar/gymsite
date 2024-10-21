@@ -1,3 +1,13 @@
 from django.shortcuts import render
 
-# Create your views here.
+
+def home_view(request):
+    user = {
+        'is_authenticated': True,
+        'username': {
+            'first_name': 'Barrack',
+            'last_name': 'Amuyunzu'
+        }
+    }
+
+    return render(request, 'home.html', {'user': user})
