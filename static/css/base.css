@@ -1,0 +1,70 @@
+
+  /* Navbar brand color and padding */
+  .navbar-brand {
+    color: #343a40;
+    transition: transform 0.3s ease;
+  }
+
+  /* Hover effect for links */
+  .nav-link {
+    transition: color 0.3s, transform 0.3s ease;
+  }
+
+  .nav-link:hover {
+    color: #007bff; /* Change color on hover */
+    transform: scale(1.1); /* Slight zoom effect */
+  }
+
+  /* Active link customization */
+  .nav-link.active {
+    color: #0056b3;
+    font-weight: bold;
+    border-bottom: 2px solid #0056b3; /* Underline active link */
+  }
+
+  /* Dropdown menu styling */
+  .dropdown-menu {
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+  }
+
+  .dropdown-menu li a:hover {
+    background-color: #007bff;
+    color: white;
+  }
+
+  /* Search button */
+  .btn-outline-success:hover {
+    background-color: #28a745;
+    color: white;
+    transform: scale(1.05); /* Button grows slightly on hover */
+  }
+
+  /* Navbar toggler customization */
+  .custom-toggler .navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath stroke="rgba%2834, 34, 34, 0.7%29" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
+    width: 30px;
+    height: 30px;
+  }
+
+  .navbar-toggler {
+    border-color: transparent;
+  }
+
+  /* Mobile menu transformation */
+  .navbar-toggler:hover {
+    transform: rotate(90deg);
+    transition: transform 0.4s ease-in-out;
+  }
+
+  /* Login button hover */
+  .btn-outline-secondary:hover {
+    background-color: #6c757d;
+    color: white;
+    transform: scale(1.05);
+  }
+
+  /* General hover transitions */
+  .nav-link, .btn, .dropdown-item {
+    transition: all 0.3s ease;
+  }
